@@ -30,7 +30,7 @@ export default function Home(){
                     size="stretch"
                     minWidth={315}
                     maxWidth={1000}
-                    minHeight={600}
+                    minHeight={800}
                     maxHeight={1533}
                     maxShadowOpacity={0.5}
                     showCover={true}
