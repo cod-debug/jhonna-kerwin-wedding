@@ -24,7 +24,7 @@ export default function Home(){
             <div className="p-2 md:p-4 max-w-[100vw]">
                 <HTMLFlipBook 
                     className="mx-auto relative"
-                    width={400}
+                    width={350}
                     height={733}
                     maxShadowOpacity={0.5}
                     mobileScrollSupport={true}
