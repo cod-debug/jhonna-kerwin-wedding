@@ -4,7 +4,14 @@
 
 @font-face {
   font-family: 'MeieScript';
-  src: url("/web-assets/fonts/MeieScript-Regular.ttf") format("truetype");
+  src: url("/assets/fonts/MeieScript-Regular.ttf") format("truetype");
+}
+
+body {
+  background-image: linear-gradient(to top right, #34170DFA, #A7795ECE), url('./assets/images/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 * {
