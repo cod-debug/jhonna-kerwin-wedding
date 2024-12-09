@@ -55,10 +55,6 @@ html {
   margin: 1em!important;
 }
 
-.flip-countdown .flip-countdown-piece .flip-countdown-card .flip-countdown-card-sec .card__top, .flip-countdown .flip-countdown-piece .flip-countdown-card .flip-countdown-card-sec .card__bottom, .flip-countdown .flip-countdown-piece .flip-countdown-card .flip-countdown-card-sec .card__back::before, .flip-countdown .flip-countdown-piece .flip-countdown-card .flip-countdown-card-sec .card__back::after {
-  color: #A7795E!important;
-}
-
 .flip-countdown-title {
   font-family: 'century gothic', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif!important;

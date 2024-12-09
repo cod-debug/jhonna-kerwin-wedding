@@ -2,11 +2,11 @@ import FlipCountdown from "@rumess/react-flip-countdown";
 
 export default function VenueTimer(){
     return(
-        <div className="flex justify-center items-center h-full w-full p-4">
+        <div className="flex bg-black justify-center items-center h-full w-full p-4 text-accent">
             <div className="text-center flex flex-col gap-2">
                 <div className="uppercase">Join us as we celebrate the beginning of our new life together.</div>
                 <FlipCountdown 
-                    theme="light"
+                    theme="dark"
                     hideYear
                     titlePosition='bottom'
                     endAt={'2025-01-11 14:00:00'}/>

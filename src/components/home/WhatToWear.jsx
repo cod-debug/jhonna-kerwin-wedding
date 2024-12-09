@@ -12,11 +12,10 @@ export default function WhatToWear(){
                     <p><strong>Black</strong> Slacks</p>
                 </div>
                 <div className="flex text-right px-4 flex-col justify-center border-r border-accent/20 h-full">
-                    <p>Long-sleeved <strong>Beige</strong> Barong</p>
-                    <p><strong>Black</strong> Slacks</p>
+                    Girls
                 </div>
                 <div>
-                    Girls
+                    <p><strong>Beige</strong> long dress</p>
                 </div>
             </div>
             <div className="p-4">

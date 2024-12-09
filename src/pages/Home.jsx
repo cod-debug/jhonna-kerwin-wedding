@@ -21,7 +21,7 @@ export default function Home(){
 
     return(
         <div className="flex flex-col gap-4">
-            <div className="p-2 md:p-4">
+            <div className="p-2 md:p-4 max-w-[100vw]">
                 <HTMLFlipBook 
                     className="mx-auto relative"
                     width={400}
