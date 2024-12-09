@@ -1,6 +1,6 @@
-export default function PageOne(){
+export default function Church(){
     return(
-        <div className="p-4">
+        <div className="p-8">
             <p className="text-script text-3xl border-b border-accent/50 text-secondary pb-2">Church</p>
             <div className="">
                 <div className="mt-4 text-secondary/80">

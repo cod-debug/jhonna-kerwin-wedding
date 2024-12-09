@@ -1,8 +1,9 @@
 import { useRef } from "react";
 import HTMLFlipBook from "react-pageflip";
 import CoverPage from "../components/home/CoverPage";
-import PageOne from "../components/home/PageOne";
-import PageTwo from "../components/home/PageTwo";
+import Reception from "../components/home/Reception";
+import Church from "../components/home/Church";
+import VenueTimer from "../components/home/VenueTimer";
 
 export default function Home(){
     const book = useRef();
@@ -19,9 +20,6 @@ export default function Home(){
 
     return(
         <div className="flex flex-col gap-4">
-            <div className="fixed -top-5 z-50 w-full hidden justify-center items-center">
-                <img src="./assets/images/border-1.png" className="w-[200px]" alt="border top" />
-            </div>
             <div className="p-4">
                 <HTMLFlipBook 
                     className="mx-auto relative"
@@ -40,10 +38,13 @@ export default function Home(){
                         <CoverPage />
                     </div>
                     <div className="page overflow-hidden relative">
-                        <PageOne />
+                        <VenueTimer />
                     </div>
                     <div className="page overflow-hidden relative">
-                        <PageTwo />
+                        <Church />
+                    </div>
+                    <div className="page overflow-hidden relative">
+                        <Reception />
                     </div>
                 </HTMLFlipBook>
             </div>
