@@ -19,9 +19,9 @@ export default function WhatToWear(){
                 <div>
                 </div>
             </div>
-            <div className="p-4">
+            <div className="p-4 text-center">
                 <hr className="border border-accent/20" />
-                <p className="font-bold my-2 text-center">For Guests</p>
+                <p className="font-bold my-2">For Guests</p>
                 <p>Long-sleeved polo, and khaki Pants</p>
             </div>
         </div>

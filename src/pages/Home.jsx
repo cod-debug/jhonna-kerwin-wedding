@@ -45,6 +45,8 @@ export default function Home(){
                     <div className="page overflow-hidden relative">
                         <WhatToWear />
                     </div>
+                    <div className="page overflow-hidden relative">
+                    </div>
                 </HTMLFlipBook>
             </div>
         </div>
