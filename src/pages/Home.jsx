@@ -1,5 +1,8 @@
 import { useRef } from "react";
 import HTMLFlipBook from "react-pageflip";
+import CoverPage from "../components/home/CoverPage";
+import PageOne from "../components/home/PageOne";
+import PageTwo from "../components/home/PageTwo";
 
 export default function Home(){
     const book = useRef();
@@ -34,36 +37,14 @@ export default function Home(){
                     mobileScrollSupport={true}
                     ref={book}
                 >
-                    <div className="page bg-primary relative overflow-hidden" number="1">
-                        <div className="absolute top-0 left-0 w-full h-full bg-cover bg-center -z-[4]" 
-                        style={{backgroundImage: "linear-gradient(to bottom, #11070369, #A7795E5E), url(./assets/images/DSCF7702.jpg)"}}></div>
-                        <div className="flex flex-col justify-between items-center h-full py-24">
-                            <div>
-                                <div className="text-center">
-                                    <p className="text-8xl text-primary font-bold leading-10">Jhonna</p>
-                                    <br />
-                                    <p className="text-8xl text-primary font-bold text-script italic">&amp;</p>
-                                    <p className="text-8xl text-primary font-bold leading-10">Kerwin</p>
-                                </div>
-                            </div>
-                            <div className="text-primary font-bold text-3xl">
-                                01.11.25
-                            </div>
-                        </div>
+                    <div className="page bg-primary relative overflow-hidden">
+                        <CoverPage />
                     </div>
-                    <div className="page bg-white overflow-hidden relative" number="2">
-                        <div className="flex justify-center items-center h-full">
-                            <div>
-                                <div class="flipdown" id="flipdown"></div>
-                            </div>
-                        </div>
+                    <div className="page overflow-hidden relative">
+                        <PageOne />
                     </div>
-                    <div className="page bg-white" number="2">
-                        <div className="flex justify-center items-center h-full">
-                            <div>
-                                <img src="" />
-                            </div>
-                        </div>
+                    <div className="page overflow-hidden relative">
+                        <PageTwo />
                     </div>
                 </HTMLFlipBook>
             </div>
