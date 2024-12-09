@@ -33,11 +33,10 @@ export default function Home(){
                     minHeight={800}
                     maxHeight={1533}
                     maxShadowOpacity={0.5}
-                    showCover={true}
                     mobileScrollSupport={true}
                     ref={book}
                 >
-                    <div className="page bg-primary relative overflow-hidden">
+                    <div className="page overflow-hidden relative">
                         <CoverPage />
                     </div>
                     <div className="page overflow-hidden relative">
