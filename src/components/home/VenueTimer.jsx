@@ -2,8 +2,8 @@ import FlipCountdown from "@rumess/react-flip-countdown";
 
 export default function VenueTimer(){
     return(
-        <div className="flex justify-center items-center h-full w-full">
-            <div className="text-center">
+        <div className="flex justify-center items-center h-full w-full ">
+            <div className="text-center flex flex-col gap-2">
                 <div className="uppercase">Join us as we celebrate the beginning of our new life together.</div>
                 <FlipCountdown 
                     theme="light"
