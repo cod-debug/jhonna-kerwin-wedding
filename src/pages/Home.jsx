@@ -23,13 +23,8 @@ export default function Home(){
             <div className="p-4">
                 <HTMLFlipBook 
                     className="mx-auto relative"
-                    width={550}
+                    width={450}
                     height={733}
-                    size="stretch"
-                    minWidth={315}
-                    maxWidth={1000}
-                    minHeight={800}
-                    maxHeight={1533}
                     maxShadowOpacity={0.5}
                     mobileScrollSupport={true}
                     ref={book}
