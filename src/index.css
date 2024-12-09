@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: linear-gradient(to top right, #34170DFA, #A7795ECE), url('./assets/images/bg.png');
+  background-image: linear-gradient(to top right, #34170DFA, #A7795ECE), url('/assets/images/bg.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
