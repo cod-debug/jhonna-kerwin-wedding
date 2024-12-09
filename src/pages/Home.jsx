@@ -4,6 +4,7 @@ import CoverPage from "../components/home/CoverPage";
 import Reception from "../components/home/Reception";
 import Church from "../components/home/Church";
 import VenueTimer from "../components/home/VenueTimer";
+import WhatToWear from "../components/home/WhatToWear";
 
 export default function Home(){
     const book = useRef();
@@ -20,10 +21,10 @@ export default function Home(){
 
     return(
         <div className="flex flex-col gap-4">
-            <div className="p-4">
+            <div className="p-2 md:p-4">
                 <HTMLFlipBook 
                     className="mx-auto relative"
-                    width={450}
+                    width={400}
                     height={733}
                     maxShadowOpacity={0.5}
                     mobileScrollSupport={true}
@@ -40,6 +41,9 @@ export default function Home(){
                     </div>
                     <div className="page overflow-hidden relative">
                         <Reception />
+                    </div>
+                    <div className="page overflow-hidden relative">
+                        <WhatToWear />
                     </div>
                 </HTMLFlipBook>
             </div>
