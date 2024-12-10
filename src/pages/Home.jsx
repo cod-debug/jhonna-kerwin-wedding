@@ -5,6 +5,7 @@ import Reception from "../components/home/Reception";
 import Church from "../components/home/Church";
 import VenueTimer from "../components/home/VenueTimer";
 import WhatToWear from "../components/home/WhatToWear";
+import Details from "../components/home/Details";
 
 export default function Home(){
     const book = useRef();
@@ -46,6 +47,7 @@ export default function Home(){
                         <WhatToWear />
                     </div>
                     <div className="page overflow-hidden relative">
+                        <Details />
                     </div>
                 </HTMLFlipBook>
             </div>

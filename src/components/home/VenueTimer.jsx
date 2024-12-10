@@ -13,7 +13,7 @@ export default function VenueTimer(){
                     titlePosition='bottom'
                     endAt={'2025-01-11 14:00:00'}/>
                 <div className="text-[9pt]">
-                    <div className="uppercase">On Friday, The 11<sup>th</sup> of January 2025</div>
+                    <div className="uppercase">On Saturday, The 11<sup>th</sup> of January 2025</div>
                     <div className="uppercase">At two o'clock in the afternoon</div>
                     <div className="uppercase"><strong>San Isidro Labrador Parish</strong>, Talay, Dumaguete City, Negros Oriental</div>
                 </div>
