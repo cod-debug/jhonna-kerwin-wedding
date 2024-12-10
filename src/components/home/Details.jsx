@@ -27,6 +27,9 @@ export default function Details(){
                     <div>Jhonna Cuizon</div>
                     <div>0965 906 0091</div>
                 </div>
+                <div className="mt-2 rounded-xl overflow-hidden opacity-80">
+                    <img src="/assets/images/hands-ring.jpg" alt="hands ring" />
+                </div>
             </div>
         </div>
     )

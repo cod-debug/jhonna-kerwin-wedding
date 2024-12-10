@@ -6,23 +6,14 @@ import Church from "../components/home/Church";
 import VenueTimer from "../components/home/VenueTimer";
 import WhatToWear from "../components/home/WhatToWear";
 import Details from "../components/home/Details";
-import WeddingEntouragePrincipalSponsors1 from "../components/home/WeddingEntouragePrincipalSponsors1";
+import WeddingEntouragePrincipalSponsors from "../components/home/WeddingEntouragePrincipalSponsors";
 import WeddingEntourageParentsBride from "../components/home/WeddingEntourageParentsBride";
-import WeddingEntourageParentsGroom from "../components/home/WeddingEntourageParentsGroom";
-import WeddingEntouragePrincipalSponsors2 from "../components/home/WeddingEntouragePrincipalSponsors2";
+import WeddingEntourage from "../components/home/WeddingEntourage";
 
 export default function Home(){
     const book = useRef();
 
     window.scrollTo(0, 0);
-
-    const handleNext = () => {
-        book.current.pageFlip().flipNext();
-    }
-    
-    const handlePrev = () => {
-        book.current.pageFlip().flipPrev();
-    }
 
     return(
         <div className="flex flex-col gap-4">
@@ -57,13 +48,10 @@ export default function Home(){
                         <WeddingEntourageParentsBride />
                     </div>
                     <div className="page overflow-hidden relative">
-                        <WeddingEntourageParentsGroom />
+                        <WeddingEntouragePrincipalSponsors />
                     </div>
                     <div className="page overflow-hidden relative">
-                        <WeddingEntouragePrincipalSponsors1 />
-                    </div>
-                    <div className="page overflow-hidden relative">
-                        <WeddingEntouragePrincipalSponsors2 />
+                        <WeddingEntourage />
                     </div>
                 </HTMLFlipBook>
             </div>

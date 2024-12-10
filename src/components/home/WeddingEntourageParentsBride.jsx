@@ -11,6 +11,16 @@ export default function WeddingEntourageParentsBride(){
                     <p className="italic">Janeth Cuizon</p>
                 </div>
             </div>
+            <div className="mt-2">
+                <div className="text-center">
+                    <p className="font-bold">Groom's Parents</p>
+                    <p className="italic">Ernesto Martinez Jr.</p>
+                    <p className="italic">Sodalia Martinez</p>
+                </div>
+            </div>
+            <div className="mt-1">
+                <img src="/assets/images/aesthetic/ring.jpg" alt="ring" className="rounded-xl" />
+            </div>
         </div>
     )
 }
