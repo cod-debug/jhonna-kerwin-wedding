@@ -6,6 +6,10 @@ import Church from "../components/home/Church";
 import VenueTimer from "../components/home/VenueTimer";
 import WhatToWear from "../components/home/WhatToWear";
 import Details from "../components/home/Details";
+import WeddingEntouragePrincipalSponsors1 from "../components/home/WeddingEntouragePrincipalSponsors1";
+import WeddingEntourageParentsBride from "../components/home/WeddingEntourageParentsBride";
+import WeddingEntourageParentsGroom from "../components/home/WeddingEntourageParentsGroom";
+import WeddingEntouragePrincipalSponsors2 from "../components/home/WeddingEntouragePrincipalSponsors2";
 
 export default function Home(){
     const book = useRef();
@@ -48,6 +52,18 @@ export default function Home(){
                     </div>
                     <div className="page overflow-hidden relative">
                         <Details />
+                    </div>
+                    <div className="page overflow-hidden relative">
+                        <WeddingEntourageParentsBride />
+                    </div>
+                    <div className="page overflow-hidden relative">
+                        <WeddingEntourageParentsGroom />
+                    </div>
+                    <div className="page overflow-hidden relative">
+                        <WeddingEntouragePrincipalSponsors1 />
+                    </div>
+                    <div className="page overflow-hidden relative">
+                        <WeddingEntouragePrincipalSponsors2 />
                     </div>
                 </HTMLFlipBook>
             </div>

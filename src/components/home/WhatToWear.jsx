@@ -24,7 +24,8 @@ export default function WhatToWear(){
                     </ul>
                 </div>
                 <div className="">
-                    <div className="flex gap-2 justify-center mt-4 border-b border-accent/50 pb-4">
+                    <div className="text-center mt-4 pb-1 font-bold">Colors:</div>
+                    <div className="flex gap-2 justify-center border-b border-accent/50 pb-4">
                         <div className="h-7 aspect-square rounded-full bg-[#a07a63]"></div>
                         <div className="h-7 aspect-square rounded-full bg-[#683f21]"></div>
                         <div className="h-7 aspect-square rounded-full bg-[#33180f]"></div>
