@@ -12,9 +12,7 @@ export default function CoverPage(){
                         <p className="text-8xl text-primary font-bold leading-10">Kerwin</p>
                     </div>
                 </div>
-                <div className="text-primary font-bold text-3xl">
-                    01.11.25
-                </div>
+                <div className="text-primary font-bold text-3xl"></div>
             </div>
         </div>
     )
