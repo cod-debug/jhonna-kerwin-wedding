@@ -6,6 +6,10 @@
   font-family: 'MeieScript';
   src: url("/assets/fonts/MeieScript-Regular.ttf") format("truetype");
 }
+@font-face {
+  font-family: 'birds';
+  src: url("/assets/fonts/Birds.ttf") format("truetype");
+}
 
 body {
   background-image: linear-gradient(to top right, #34170DFA, #A7795ECE), url('/assets/images/bg.png');
@@ -20,7 +24,7 @@ body {
 }
 
 .text-script {
-  font-family: 'MeieScript'!important;
+  font-family: 'birds'!important;
 }
 
 html {
@@ -69,4 +73,9 @@ html {
 .flip-countdown-title {
   font-family: 'century gothic', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif!important;
+}
+
+img.high-exposure {
+  filter: saturate(200%);
+  -webkit-filter: saturate(200%);
 }
