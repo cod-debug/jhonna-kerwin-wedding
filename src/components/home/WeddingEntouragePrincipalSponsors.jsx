@@ -7,54 +7,54 @@ export default function WeddingEntouragePrincipalSponsors(){
                     <p className="text-script text-3xl border-b border-white/50 pb-2">The Entourage</p>
                 </div>
                 <div className="mt-4 mx-4">
-                    <p className="font-bold text-center">Primary Sponsors</p>
-                    <div className="mt-2 text-[10pt] flex justify-between">
+                    <p className="text-center text-script">Primary Sponsors</p>
+                    <div className="mt-2 text-[10pt] flex justify-between text-times">
                         <div className="text-center">
-                            <p className="italic">Dr. Simon John Eric Flores</p>
-                            <p className="italic">Hon. John Raymond Jr.</p>
-                            <p className="italic">Mr. Reynaldo Lamoco</p>
-                            <p className="italic">Hon. Emezalde Siacor</p>
-                            <p className="italic">Mr. Napoleon Capulso</p>
-                            <p className="italic">Mr. Rene Martinez</p>
-                            <p className="italic">Mr. Bernardo Neri II</p>
-                            <p className="italic">Mr. Sharlou Jamin</p>
-                            <p className="italic">Mr. Jesselito Nuñez</p>
-                            <p className="italic">Mr. Mario Dolar</p>
-                            <p className="italic">Engr. Jed Luba</p>
-                            <p className="italic">Engr. Marlon Tanilon</p>
-                            <p className="italic">Mr. Diosdado Lajato</p>
-                            <p className="italic">Mr. Joy Cabebe</p>
+                            <p>Dr. Simon John Eric Flores</p>
+                            <p>Hon. John Raymond Jr.</p>
+                            <p>Mr. Reynaldo Lamoco</p>
+                            <p>Hon. Emezalde Siacor</p>
+                            <p>Mr. Napoleon Capulso</p>
+                            <p>Mr. Rene Martinez</p>
+                            <p>Mr. Bernardo Neri II</p>
+                            <p>Mr. Sharlou Jamin</p>
+                            <p>Mr. Jesselito Nuñez</p>
+                            <p>Mr. Mario Dolar</p>
+                            <p>Engr. Jed Luba</p>
+                            <p>Engr. Marlon Tanilon</p>
+                            <p>Mr. Diosdado Lajato</p>
+                            <p>Mr. Joy Cabebe</p>
                         </div>
                         <div className="text-center">
-                            <p className="italic">Dr. Sheila Marie Flores</p>
-                            <p className="italic">Atty. Pristine Raymond</p>
-                            <p className="italic">Mrs. Irene Lamaco</p>
-                            <p className="italic">Mrs. Jocelyn Siacor</p>
-                            <p className="italic">Mrs. Geraldine Capulso</p>
-                            <p className="italic">Mrs. Maritess Martinez</p>
-                            <p className="italic">Engr. Janice Neri</p>
-                            <p className="italic">Mrs. Jocelyn Torreda</p>
-                            <p className="italic">Mrs. Tulip Nuñez</p>
-                            <p className="italic">Mrs. Estrella Dolar</p>
-                            <p className="italic">Mrs. Maria Vilma Luba</p>
-                            <p className="italic">Mrs. Junila Tanilon</p>
-                            <p className="italic">Mrs. Salvation Lajato</p>
-                            <p className="italic">Mrs. Susan Occeña</p>
+                            <p>Dr. Sheila Marie Flores</p>
+                            <p>Atty. Pristine Raymond</p>
+                            <p>Mrs. Irene Lamaco</p>
+                            <p>Mrs. Jocelyn Siacor</p>
+                            <p>Mrs. Geraldine Capulso</p>
+                            <p>Mrs. Maritess Martinez</p>
+                            <p>Engr. Janice Neri</p>
+                            <p>Mrs. Jocelyn Torreda</p>
+                            <p>Mrs. Tulip Nuñez</p>
+                            <p>Mrs. Estrella Dolar</p>
+                            <p>Mrs. Maria Vilma Luba</p>
+                            <p>Mrs. Junila Tanilon</p>
+                            <p>Mrs. Salvation Lajato</p>
+                            <p>Mrs. Susan Occeña</p>
                         </div>
                     </div>
                 </div>
                 <div className="mt-4 mx-2">
-                    <p className="font-bold text-center">Secondary Sponsors</p>
-                    <div className="mt-2 text-[10pt] flex justify-between">
+                    <p className="text-center text-script">Secondary Sponsors</p>
+                    <div className="mt-2 text-[10pt] flex justify-between text-times">
                         <div className="text-center">
-                            <p className="italic">Mr. Eran Ysola</p>
-                            <p className="italic">Mr. John Rey Jumuad</p>
-                            <p className="italic">Engr. Daryl Rey Torreda</p>
+                            <p>Mr. Eran Ysola</p>
+                            <p>Mr. John Rey Jumuad</p>
+                            <p>Engr. Daryl Rey Torreda</p>
                         </div>
                         <div className="text-center">
-                            <p className="italic">Mrs. Jocel Marie Ysola</p>
-                            <p className="italic">Mrs. Kimberly Lourdes Jumuad</p>
-                            <p className="italic">Mrs. Karina Rufa Torreda</p>
+                            <p>Mrs. Jocel Marie Ysola</p>
+                            <p>Mrs. Kimberly Lourdes Jumuad</p>
+                            <p>Mrs. Karina Rufa Torreda</p>
                         </div>
                     </div>
                 </div>

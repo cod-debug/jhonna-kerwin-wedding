@@ -10,69 +10,69 @@ export default function WeddingEntourage(){
                 <div className="mt-4">
                     <div className="mt-3 text-[10pt] grid grid-cols-2 justify-between">
                         <div className="text-center">
-                            <p className="font-bold text-center text-[11pt]">Maid of Honor</p>
-                            <p className="italic">Juliane Faith Cuizon</p>
+                            <p className="text-center text-[11pt] text-script">Maid of Honor</p>
+                            <p className="text-times">Juliane Faith Cuizon</p>
                         </div>
                         <div className="text-center">
-                            <p className="font-bold text-center text-[11pt]">Best Man</p>
-                            <p className="italic">Jezrell Tuale</p>
-                        </div>
-                    </div>
-                    <div className="mt-3 text-[9pt] grid grid-cols-2 justify-between">
-                        <div className="text-center">
-                            <p className="font-bold text-center text-[11pt]">Senior Bridesmaids</p>
-                            <p className="italic">Joanna Marie Beira</p>
-                            <p className="italic">Crislyn Ruedas</p>
-                            <p className="italic">Jaybelle Corrine Cabebe</p>
-                            <p className="italic">Hanna Jael Cadusale</p>
-                            <p className="italic">Shanelle Louise Diones</p>
-                            <p className="italic">Ethel Rose Taring</p>
-                            <p className="italic">Jillian Patrice Raymond</p>
-                            <p className="italic">Princess Emejoy Siacor</p>
-                            <p className="italic">Mary Jane Torreda</p>
-                        </div>
-                        <div className="text-center">
-                            <p className="font-bold text-center text-[11pt]">Senior Grooms Men</p>
-                            <p className="italic">Johann Rey Beira</p>
-                            <p className="italic">Roy JR Dueñas</p>
-                            <p className="italic">Godsent Kobe Dustin Martinez</p>
-                            <p className="italic">Alain Gemuel Alojado</p>
-                            <p className="italic">John Paul Quindo</p>
-                            <p className="italic">Francisdwayne Lisondra</p>
-                            <p className="italic">John Kristoffer Capulso</p>
-                            <p className="italic">Jo-em Siacor</p>
-                            <p className="italic">Christian Michael Capulso</p>
+                            <p className="text-center text-[11pt] text-script">Best Man</p>
+                            <p className="text-times">Jezrell Tuale</p>
                         </div>
                     </div>
                     <div className="mt-3 text-[9pt] grid grid-cols-2 justify-between">
                         <div className="text-center">
-                            <p className="font-bold text-center text-[11pt]">Junior Bridesmaids</p>
-                            <p className="italic">Jamie Cel Sophia Cuizon</p>
-                            <p className="italic">Xhan Aquesha Torreda</p>
+                            <p className="text-center text-[11pt] text-script">Senior Bridesmaids</p>
+                            <p className="text-times">Joanna Marie Beira</p>
+                            <p className="text-times">Crislyn Ruedas</p>
+                            <p className="text-times">Jaybelle Corrine Cabebe</p>
+                            <p className="text-times">Hanna Jael Cadusale</p>
+                            <p className="text-times">Shanelle Louise Diones</p>
+                            <p className="text-times">Ethel Rose Taring</p>
+                            <p className="text-times">Jillian Patrice Raymond</p>
+                            <p className="text-times">Princess Emejoy Siacor</p>
+                            <p className="text-times">Mary Jane Torreda</p>
                         </div>
                         <div className="text-center">
-                            <p className="font-bold text-center text-[11pt]">Junior Grooms Men</p>
-                            <p className="italic">Marco Lleandro Martinez</p>
-                            <p className="italic">Prince Arwin Tizon</p>
+                            <p className="text-center text-[11pt] text-script">Senior Grooms Men</p>
+                            <p className="text-times">Johann Rey Beira</p>
+                            <p className="text-times">Roy JR Dueñas</p>
+                            <p className="text-times">Godsent Kobe Dustin Martinez</p>
+                            <p className="text-times">Alain Gemuel Alojado</p>
+                            <p className="text-times">John Paul Quindo</p>
+                            <p className="text-times">Francisdwayne Lisondra</p>
+                            <p className="text-times">John Kristoffer Capulso</p>
+                            <p className="text-times">Jo-em Siacor</p>
+                            <p className="text-times">Christian Michael Capulso</p>
+                        </div>
+                    </div>
+                    <div className="mt-3 text-[9pt] grid grid-cols-2 justify-between">
+                        <div className="text-center">
+                            <p className="text-center text-[11pt] text-script">Junior Bridesmaids</p>
+                            <p className="text-times">Jamie Cel Sophia Cuizon</p>
+                            <p className="text-times">Xhan Aquesha Torreda</p>
+                        </div>
+                        <div className="text-center">
+                            <p className="text-center text-[11pt] text-script">Junior Grooms Men</p>
+                            <p className="text-times">Marco Lleandro Martinez</p>
+                            <p className="text-times">Prince Arwin Tizon</p>
                         </div>
                     </div>
                     <div className="mt-3 text-[9pt] grid grid-cols-1 justify-between gap-2">
                         <div className="text-center">
-                            <p className="font-bold text-center text-[11pt]">Flower Girls</p>
-                            <p className="italic">Xamira Amitiel Torreda</p>
-                            <p className="italic">Talitha Glawen Beira</p>
-                            <p className="italic">Tzepherina Glamour Beira</p>
-                            <p className="italic">Reyly Ameera Jumuad</p>
-                            <p className="italic">Sansa Amari Jumuad</p>
-                            <p className="italic">Princess Amelie Grace Tizon</p>
-                            <p className="italic">Karina Beatrix Capulso</p>
+                            <p className="text-center text-[11pt] text-script">Flower Girls</p>
+                            <p className="text-times">Xamira Amitiel Torreda</p>
+                            <p className="text-times">Talitha Glawen Beira</p>
+                            <p className="text-times">Tzepherina Glamour Beira</p>
+                            <p className="text-times">Reyly Ameera Jumuad</p>
+                            <p className="text-times">Sansa Amari Jumuad</p>
+                            <p className="text-times">Princess Amelie Grace Tizon</p>
+                            <p className="text-times">Karina Beatrix Capulso</p>
 
                         </div>
                         <div className="text-center">
-                            <p className="font-bold text-center text-[11pt]">Bearers</p>
-                            <p className="italic">Xavier JC Alexi Torreda</p>
-                            <p className="italic">Isiah Santi Capulso</p>
-                            <p className="italic">Luke Finleuy Siacor</p>
+                            <p className="text-center text-[11pt] text-script">Bearers</p>
+                            <p className="text-times">Xavier JC Alexi Torreda</p>
+                            <p className="text-times">Isiah Santi Capulso</p>
+                            <p className="text-times">Luke Finleuy Siacor</p>
                         </div>
                     </div>
                 </div>

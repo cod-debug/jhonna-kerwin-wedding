@@ -6,16 +6,16 @@ export default function WeddingEntourageParentsBride(){
             </div>
             <div className="mt-4">
                 <div className="text-center">
-                    <p className="font-bold">Bride's Parents</p>
-                    <p className="italic">Bernardo Cuizon</p>
-                    <p className="italic">Janeth Cuizon</p>
+                    <p className="text-script">Bride's Parents</p>
+                    <p className="text-times">Bernardo Cuizon</p>
+                    <p className="text-times">Janeth Cuizon</p>
                 </div>
             </div>
             <div className="mt-2">
                 <div className="text-center">
-                    <p className="font-bold">Groom's Parents</p>
-                    <p className="italic">Ernesto Martinez Jr.</p>
-                    <p className="italic">Sodalia Martinez</p>
+                    <p className="text-script">Groom's Parents</p>
+                    <p className="text-times">Ernesto Martinez Jr.</p>
+                    <p className="text-times">Sodalia Martinez</p>
                 </div>
             </div>
             <div className="mt-1">

@@ -2,7 +2,7 @@ export default function CoverPage(){
     return(
         <div className="h-full w-full relative">
             <div className="absolute w-full h-full bg-cover bg-center -z-[4]" 
-            style={{backgroundImage: "linear-gradient(to bottom, #11070369, #A7795E5E), url(./assets/images/DSCF7702.jpg)"}}></div>
+            style={{backgroundImage: "linear-gradient(to bottom, #11070369, #A7795E5E), url(./assets/images/grass.jpg)"}}></div>
             <div className="flex flex-col justify-between items-center h-full py-24">
                 <div>
                     <div className="text-center">
