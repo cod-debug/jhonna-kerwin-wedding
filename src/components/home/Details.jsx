@@ -26,9 +26,20 @@ export default function Details(){
                     </div>
                     <div>Jhonna Cuizon</div>
                     <div>0965 906 0091</div>
+                    <div>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUFA3wscOnIM-_147xKRjJKE2Z0JuSoKzqgeE401M5Wu0Uqw/viewform" 
+                        target="_blank" 
+                        className="border border-secondary py-1 px-4 rounded inline-block my-2
+                        hover:bg-secondary hover:text-white
+                        transition-all ease-in duration-200
+                        "
+                        rel="noreferrer">
+                            RSVP
+                        </a>
+                    </div>
                 </div>
-                <div className="mt-2 rounded-xl overflow-hidden opacity-80">
-                    <img src="/assets/images/hands-ring.jpg" alt="hands ring" />
+                <div className="mt-2 opacity-80">
+                    <img src="/assets/images/hands-ring.jpg" alt="hands ring" className="w-3/4 rounded-xl overflow-hidden mx-auto" />
                 </div>
             </div>
         </div>
