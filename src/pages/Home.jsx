@@ -11,6 +11,7 @@ import WeddingEntourageParentsBride from "../components/home/WeddingEntouragePar
 import WeddingEntourage from "../components/home/WeddingEntourage";
 import OrderOfEvents from "../components/home/OrderOfEvents";
 import PreferredGifts from "../components/home/PreferredGifts";
+import Gallery from "../components/home/Gallery";
 
 export default function Home(){
     const book = useRef();
@@ -60,6 +61,9 @@ export default function Home(){
                     </div>
                     <div className="page overflow-hidden relative">
                         <PreferredGifts />
+                    </div>
+                    <div className="page overflow-hidden relative">
+                        <Gallery />
                     </div>
                 </HTMLFlipBook>
             </div>
