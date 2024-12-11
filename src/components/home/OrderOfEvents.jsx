@@ -1,6 +1,5 @@
 export default function OrderOfEvents(){
     return(
-        
         <div className="p-8 text-secondary flex flex-col h-full">
             <div>
                 <p className="text-script text-3xl border-b border-accent/50 pb-2">Order of Events</p>
@@ -58,7 +57,7 @@ export default function OrderOfEvents(){
                         <img src="/assets/images/disco.png" alt="wine glass" className="w-full" />
                     </div>
                 </div>
-                
+                <div className="h-[80px] w-full bg-center bg-contain relative rounded-xl border-2 border-accent/50 mt-2" style={{backgroundImage: "linear-gradient(to left, #34170DA2, #6E3C19AE), url(/assets/images/sunset-5.jpg)"}}></div>
             </div>
         </div>
     )
