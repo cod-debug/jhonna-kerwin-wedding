@@ -16,7 +16,7 @@ export default function WeddingEntouragePrincipalSponsors(){
                             <p>Hon. Emezalde Siacor</p>
                             <p>Mr. Napoleon Capulso</p>
                             <p>Mr. Rene Martinez</p>
-                            <p>Mr. Bernardo Neri II</p>
+                            <p>Mr. Bernard John Neri</p>
                             <p>Mr. Sharlou Jamin</p>
                             <p>Mr. Jesselito Nuñez</p>
                             <p>Mr. Mario Dolar</p>

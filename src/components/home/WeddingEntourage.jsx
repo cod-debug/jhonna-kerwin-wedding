@@ -24,7 +24,7 @@ export default function WeddingEntourage(){
                             <p className="text-times">Joanna Marie Beira</p>
                             <p className="text-times">Crislyn Ruedas</p>
                             <p className="text-times">Jaybelle Corrine Cabebe</p>
-                            <p className="text-times">Hanna Jael Cadusale</p>
+                            <p className="text-times">Hannah Jael Cadusale</p>
                             <p className="text-times">Shanelle Louise Diones</p>
                             <p className="text-times">Ethel Rose Taring</p>
                             <p className="text-times">Jillian Patrice Raymond</p>
@@ -72,7 +72,7 @@ export default function WeddingEntourage(){
                             <p className="text-center text-[11pt] text-script">Bearers</p>
                             <p className="text-times">Xavier JC Alexi Torreda</p>
                             <p className="text-times">Isiah Santi Capulso</p>
-                            <p className="text-times">Luke Finleuy Siacor</p>
+                            <p className="text-times">Luke Finley Siacor</p>
                         </div>
                     </div>
                 </div>
