@@ -38,7 +38,7 @@ export default function WeddingEntouragePrincipalSponsors(){
                             <p>Mrs. Estrella Dolar</p>
                             <p>Mrs. Maria Vilma Luba</p>
                             <p>Mrs. Junila Tanilon</p>
-                            <p>Mrs. Salvation Lajato</p>
+                            <p>Mrs. Salvacion Lajato</p>
                             <p>Mrs. Susan Occeña</p>
                         </div>
                     </div>
