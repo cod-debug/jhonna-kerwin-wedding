@@ -13,7 +13,7 @@ export default function PreferredGifts(){
                     <a href="/assets/images/bank-1.jpeg" download>
                         <img src="/assets/images/bank-1.jpeg" alt="GCash" className="w-full rounded" />
                     </a>
-                    <a href="/assets/images/bank-2.jpg" download>
+                    <a href="/assets/images/bank-2.jpeg" download>
                         <img src="/assets/images/bank-2.jpeg" alt="BDO" className="w-full rounded" />
                     </a>
                 </div>
